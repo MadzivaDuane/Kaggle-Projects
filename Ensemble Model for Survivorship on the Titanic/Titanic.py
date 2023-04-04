@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
 
 #load data
-path = "/Users/duanemadziva/Documents/_ Print (Hello World)/Learning Python/PythonVS/Kaggle/Titanic/"
+path = "/Users/.../Titanic/"
 train_data = pd.read_csv(path+"train.csv"); train_data.head()
 #embarked - drop missing embarked #% of missing features
 (train_data.isnull().sum())*100/len(train_data.index)
